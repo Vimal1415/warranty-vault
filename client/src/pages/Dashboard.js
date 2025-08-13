@@ -7,8 +7,6 @@ import {
   Plus, 
   Mail, 
   Settings,
-  TrendingUp,
-  Calendar,
   Shield,
   Bell
 } from 'lucide-react';

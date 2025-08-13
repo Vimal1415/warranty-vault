@@ -2,17 +2,12 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   Package, 
-  Calendar, 
-  Building, 
-  Hash, 
   DollarSign, 
   FileText,
   Upload,
   X,
   Save,
-  ArrowLeft,
-  AlertCircle,
-  CheckCircle
+  ArrowLeft
 } from 'lucide-react';
 import axios from 'axios';
 

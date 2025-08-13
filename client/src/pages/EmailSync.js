@@ -7,13 +7,10 @@ import {
   RefreshCw, 
   AlertTriangle, 
   Package,
-  Download,
   Upload,
-  Trash2,
   Eye,
   Calendar,
   DollarSign,
-  ShoppingBag,
   Info
 } from 'lucide-react';
 import axios from 'axios';

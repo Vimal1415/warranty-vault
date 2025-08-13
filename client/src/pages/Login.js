@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 import axios from 'axios';
 
 const Login = () => {
-  const { handleAuthCallback, login, loginWithGoogle } = useAuth();
+  const { handleAuthCallback, login } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
   const [isLogin, setIsLogin] = useState(true);
