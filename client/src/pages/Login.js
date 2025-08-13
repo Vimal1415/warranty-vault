@@ -82,6 +82,11 @@ const Login = () => {
     }
   ];
 
+  const handleGoogleLogin = () => {
+    console.log("Google login button clicked");
+    window.location.href = "http://localhost:5000/api/auth/google";
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-secondary-50">
       <div className="flex min-h-screen">
@@ -159,7 +164,7 @@ const Login = () => {
                   {/* Google OAuth Button */}
                   <div>
                     <button
-                      onClick={loginWithGoogle}
+                      onClick={handleGoogleLogin}
                       className="w-full btn-primary flex items-center justify-center"
                       disabled={loading}
                     >
